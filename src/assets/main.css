@@ -1,0 +1,211 @@
+body {
+  font-family: 'Roboto';
+  color: #333333;
+  margin: 0;
+  background-color: #e7e7e7;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 450px;
+  margin: 0 auto 40px;
+}
+
+input {
+  width: 100%;
+  box-shadow: none;
+  border: none;
+  line-height: 24px;
+}
+
+div[class*='MuiInput-root']:before {
+  border-color: #bdbec0;
+}
+
+input:focus,
+input:visited {
+  outline: none;
+}
+
+.submit-btn,
+.chooseFileButton,
+.btn,
+button[class*='Signup-button'] {
+  background-color: #fab72e !important;
+  width: 100% !important;
+  border: none !important;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24) !important;
+  border-radius: 2px !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  color: #333333 !important;
+  letter-spacing: 0.5px !important;
+  padding: 15px 0 !important;
+  text-transform: uppercase !important;
+  margin: 90px 0 0 0 !important;
+  font-family: 'roboto';
+  line-height: 19px;
+}
+
+.btn {
+  margin: 0 0 20px !important;
+}
+.btn-edit {
+  background-color: #ffffff !important;
+  border: solid 1px #fab72e !important;
+}
+.btn-edit a {
+  color: #333333 !important;
+  text-decoration: none;
+}
+label {
+  float: left;
+  font-size: 12px;
+  color: #8b9399 !important;
+  margin-bottom: 5px;
+}
+
+.error,
+.text-danger {
+  color: #d50000;
+  display: inline-block;
+  text-align: left;
+  font-size: 12px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.form-control,
+.form-group {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.title-heading {
+  font-size: 33px;
+  font-weight: 500;
+  margin: 5px 0 15px;
+  color: #000000;
+}
+
+.user-screen {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.user-screen a {
+  color: #151515;
+  text-decoration: underline;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+div[class*='MuiFormControl-root'] {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.MuiInput-underline:after {
+  border-color: #000000 !important;
+}
+.logo-section {
+  background-color: #000000;
+  padding: 40px 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.logo-section .container {
+  margin-bottom: 0;
+}
+.logo-section img {
+  max-width: 70%;
+}
+.form-section {
+  text-align: center;
+}
+.signup-form-steps,
+.login-form-section form {
+  background-color: #ffffff;
+  padding: 10px 20px 40px;
+  margin: 0;
+}
+.MuiFormLabel-focused {
+  color: inherit !important;
+}
+.loading-popup .MuiPaper-root {
+  background-color: transparent;
+  box-shadow: none;
+}
+.loading-popup-content img {
+  max-width: 75px;
+}
+iframe {
+  width: 100%;
+  height: 400px;
+}
+.link-yellow,
+.link-yellow .MuiTypography-subheading {
+  color: #fab72e;
+}
+.active-state a svg {
+  fill: #fab72e;
+}
+input[name='address'] {
+  text-transform: capitalize;
+}
+input[name='postcode'] {
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  body {
+    background-color: #ffffff;
+  }
+  .MuiGrid-spacing-xs-24 {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .logo-section img {
+    max-width: 250px;
+  }
+  .signup-form-steps,
+  .login-form-section form {
+    padding: 10px 0 40px;
+  }
+  .xs-pt-lr {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .title-heading {
+    font-size: 20px;
+    color: #575756;
+    margin-bottom: 0;
+  }
+  .form-section {
+    padding: 0 4px;
+  }
+  .policy.dialog-box .close-popup {
+    margin-right: 10px;
+  }
+  .policy #dialog-title h2 {
+    font-size: 18px;
+  }
+}
